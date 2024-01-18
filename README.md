@@ -1,10 +1,11 @@
 # JavaScript_Study
+
 ## 레포지토리 소개
 
 - **자바스크립트(JavaScript)** 를 공부한 내용을 기록한 레포지토리
 - Reference 📖
-    - *Do it! 모던 자바스크립트 프로그래밍의 정석*
-    - *https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference*
+  - _Do it! 모던 자바스크립트 프로그래밍의 정석_
+  - *https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference*
 
 <table>
     <tr>
