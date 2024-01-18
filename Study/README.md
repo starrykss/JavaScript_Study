@@ -1,9 +1,12 @@
 # JavaScript Study
 
+<!--
 <style>
     .image-container { position: relative; text-align: center; }
     .image-caption { position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.1); color: #fff; padding: 1px; box-sizing: border-box; font-size: 12px; }
 </style>
+
+-->
 
 ## JavaScript
 
@@ -121,7 +124,7 @@
 <script src="스크립트_파일_경로"></script>
 ```
 
-- 최근에는 `<script>` 안에 `defer`라는 속성을 추가해 <u>무조건 문서를 다 가져온 후에</u> 스크립트 소스를 실행하도록 지정하기도 한다.
+- 최근에는 `<script>` 안에 `defer`라는 속성을 추가해 **_무조건 문서를 다 가져온 후에_** 스크립트 소스를 실행하도록 지정하기도 한다.
 
 ```js
 <script defer src="스크립트_파일_경로"></script>
