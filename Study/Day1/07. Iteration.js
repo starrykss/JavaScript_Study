@@ -1,3 +1,5 @@
+// ✏️ 반복문(Iteration)
+
 // (1) for 문
 // - for (초깃값; 조건; 증가식) { ... }
 const students = ["Park", "Kim", "Lee", "Kang"];

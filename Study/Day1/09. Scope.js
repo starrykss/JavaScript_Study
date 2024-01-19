@@ -1,3 +1,5 @@
+// ✏️ 스코프(Scope)
+
 // var로 선언한 변수는 크기 지역 스코프(Local Scope)와 전역 스코프(Global Scope)를 가진다.
 
 // (1) 지역 스코프

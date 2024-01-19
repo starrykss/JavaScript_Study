@@ -1,3 +1,5 @@
+// ✏️ 조건문(Conditional Statement)
+
 // (1) if 문
 let x = 10;
 if (x > 5) {

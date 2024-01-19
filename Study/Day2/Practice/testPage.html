@@ -1,0 +1,68 @@
+<html>
+  <head>
+    ...
+  </head>
+  <body>
+    BODY
+    <div>
+      DIV
+      <section>
+        SECTION
+        <p>P</p>
+      </section>
+    </div>
+    <script>
+      const elements = document.querySelectorAll("*"); // 모든 요소를 가져와서 저장
+
+      for (let element of elements) {
+        // 모든 요소를 순회하면서 click 이벤트가 발생하면 event.target인 태그 이름과 event.currentTarget인 태그 이름을 출력
+        element.addEventListener(
+          "click",
+          (e) => {
+            console.log(
+              `event.target : ${e.target.tagName}, event.currentTarget : ${e.currentTarget.tagName}`
+            );
+          },
+          true
+        );
+      }
+    </script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div id="login_input">
+        <input type="text" autofocus placeholder="아이디" />
+        <input type="password" placeholder="비밀번호" />
+      </div>
+      <div id="login_bttn">
+        <button type="submit" class="order">로그인</button>
+      </div>
+    </form>
+    ;
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="desc">
+      <p class="user clicked">이름 : 자바스크립트</p>
+      <p class="user">주소 : Korea</p>
+      <p class="user">연락처 : 123-3241</p>
+    </div>
+  </body>
+</html> -->

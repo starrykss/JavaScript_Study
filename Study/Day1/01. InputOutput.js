@@ -1,3 +1,5 @@
+// ✏️ 입출력(Input/Output)
+
 // (1) alert(내용)
 // 알림창 표시
 var content = "안녕하세요";

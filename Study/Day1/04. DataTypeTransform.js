@@ -1,3 +1,5 @@
+// ✏️ 자료형 변환(Data Type Transform)
+
 // 강력한 자료형 체크(Strong Data Type Check)
 int num = 20;
 char *name = "John";
